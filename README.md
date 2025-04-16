@@ -5,7 +5,9 @@ Restricted Boltzmann Machine and Ising Machine-Based Fast Sampling
 This project consists of two parts:
 * Reproduced the RBM training from [1], along with ablation experiments where the final logistic regression was replaced with other models for training and testing.
 * Reproduced the Ising machine-based sampling from [1], and compared this sampling method with MCMC sampling.
+
 [1] Böhm F, Alonso-Urquijo D, Verschaffelt G, et al. Noise-injected analog Ising machines enable ultrafast statistical sampling and machine learning[J]. Nature Communications, 2022, 13(1): 5847.
+
 ## Usage Instructions
 * Place all .py files and notebook files in the same folder.
 * [RBM_example.ipynb](RBM_example.ipynb) contains an example reproducing the training in [1]:
